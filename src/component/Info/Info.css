@@ -1,0 +1,26 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 25px;
+    height: 200px;
+    align-items: center;
+}
+.info-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.description-title{
+    margin-bottom:5px;
+    color:"#000080";
+    font-size:18px;
+    font-weight:600;
+}
+.description-text{
+    margin:0;
+    font-weight:400;
+}
