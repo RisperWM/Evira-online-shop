@@ -1,0 +1,70 @@
+.navbar {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.logoText {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 35px;
+  margin-left: 20px;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+  margin-right: 15px;
+  list-style-type: none;
+}
+.navlinks > li {
+  list-style-type: none;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+}
+.navlinks li a {
+  color: black;
+  text-decoration: none;
+}
+.navlinks li a:hover {
+  color: orange;
+}
+.navlinks li a.active {
+  color: orange;
+  position: relative;
+  top: -10px;
+}
+.navlinks li a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: orange;
+}
+.signupbtn{
+  width:100px;
+  height:36px;
+  background-color:orange;
+  color:black;
+  font-size:16px;
+   border:1px solid gray;
+    border-radius:6px
+}
+.signupbtn:hover{
+  background-color:rgb(245, 242, 236);
+  color:black;
+}
