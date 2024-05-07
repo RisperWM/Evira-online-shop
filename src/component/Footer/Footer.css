@@ -1,0 +1,95 @@
+.footer {
+  background-color: rgb(41, 41, 44);
+  padding: 15px;
+}
+.sect1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: whitesmoke;
+}
+.logos p {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.aboutTitle {
+  color: orange;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+}
+.aboutText {
+  width: 400px;
+  margin: 0;
+  font-weight: 300px;
+}
+.contactTitle {
+  color: orange;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+}
+.infoTitle {
+  color: orange;
+  font-size: 20px;
+  font-weight: 400;
+}
+.column2 {
+  display: flex;
+  flex-direction: column;
+}
+.column2 a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.column2 a:hover {
+  color: orange;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+#email {
+  border: none;
+  width: 350px;
+  height: 40px;
+}
+.subscribeBtn {
+  margin-top: 30px;
+  width: 160px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.subscribeBtn:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.iconLink{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.copyright{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+}

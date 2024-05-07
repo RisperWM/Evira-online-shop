@@ -55,3 +55,16 @@
   height: 2px;
   background-color: orange;
 }
+.signupbtn{
+  width:100px;
+  height:36px;
+  background-color:orange;
+  color:black;
+  font-size:16px;
+   border:1px solid gray;
+    border-radius:6px
+}
+.signupbtn:hover{
+  background-color:rgb(245, 242, 236);
+  color:black;
+}

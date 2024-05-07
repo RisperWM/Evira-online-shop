@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../component/Navbar/Navbar";
+import Footer from "../component/Footer/Footer";
 
 const Account = () => {
   return (
-    <div>Account</div>
-  )
-}
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
+  );
+};
 
-export default Account
+export default Account;

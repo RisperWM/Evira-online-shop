@@ -14,29 +14,32 @@ const Navbar = () => {
       </div>
       <ul className="navlinks">
         <li>
-          <NavLink exact to="/" activeClassName="active">
+          <NavLink exact to="/" className={({isActive}) => (isActive ? "active" : 'none')}>
             HOME
           </NavLink>
         </li>
         <li>
-          <NavLink to="/shop" activeClassName="active">
+          <NavLink to="/shop" className={({isActive}) => (isActive ? "active" : 'none')}>
             SHOP
           </NavLink>
         </li>
         <li>
-          <NavLink to="/blog" activeClassName="active">
+          <NavLink to="/blog" className={({isActive}) => (isActive ? "active" : 'none')}>
             BLOG
           </NavLink>
         </li>
         <li>
-          <NavLink to="/media" activeClassName="active">
+          <NavLink to="/media" className={({isActive}) => (isActive ? "active" : 'none')}>
             MEDIA
           </NavLink>
         </li>
         <li>
-          <NavLink to="/features" activeClassName="active">
+          <NavLink to="/features" className={({isActive}) => (isActive ? "active" : 'none')}>
             FEATURES
           </NavLink>
+        </li>
+        <li>
+          <button className="signupbtn">SIGN UP</button>
         </li>
         <li>
           <IoSearchSharp size={25} />
@@ -44,11 +47,6 @@ const Navbar = () => {
         <li>
           <NavLink to="/account">
             <RiUserLine size={25} />
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/like">
-            <GoHeartFill size={25} color="red" />
           </NavLink>
         </li>
         <li>

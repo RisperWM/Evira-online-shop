@@ -25,9 +25,9 @@ const Products = () => {
       </div>
       
       <div className="images" id='controller'>
-        <p style={{color:"white", fontSize:"25px", fontWeight:"600", margin:"0"}}>Game</p>
-        <p style={{color:"white", fontSize:"25px", fontWeight:"200", margin:"0"}}>Controller</p>
-        <a style={{color:"orange", fontSize:"15px"}} href="">VIEW MORE</a>
+        <p style={{color:"white", fontSize:"25px", fontWeight:"600", margin:"0", paddingLeft:"30px"}}>Game</p>
+        <p style={{color:"white", fontSize:"25px", fontWeight:"200", margin:"0", paddingLeft:"30px"}}>Controller</p>
+        <a style={{color:"orange", fontSize:"15px", paddingLeft:"30px"}} href="">VIEW MORE</a>
       </div>
     </div>
   )

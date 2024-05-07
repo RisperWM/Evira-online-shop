@@ -4,6 +4,7 @@ import Slider from "../component/Slider/Slider";
 import Info from "../component/Info/Info";
 import Products from "../component/Products/Products";
 import TopProducts from "../component/TopProducts/TopProducts";
+import Footer from "../component/Footer/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Info />
       <Products/>
       <TopProducts/>
+      <Footer/>
     </div>
   );
 };
