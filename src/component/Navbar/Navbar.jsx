@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { IoSearchSharp } from "react-icons/io5";
 import { RiUserLine } from "react-icons/ri";
-import { GoHeartFill } from "react-icons/go";
 import { ImCart } from "react-icons/im";
 
 const Navbar = () => {
+  
   return (
     <div className="navbar">
       <div className="logo">
@@ -14,32 +14,52 @@ const Navbar = () => {
       </div>
       <ul className="navlinks">
         <li>
-          <NavLink exact to="/" className={({isActive}) => (isActive ? "active" : 'none')}>
+          <NavLink
+            exact
+            to="/"
+            className={({ isActive }) => (isActive ? "active" : "none")}
+          >
             HOME
           </NavLink>
         </li>
         <li>
-          <NavLink to="/shop" className={({isActive}) => (isActive ? "active" : 'none')}>
+          <NavLink
+            to="/shop"
+            className={({ isActive }) => (isActive ? "active" : "none")}
+          >
             SHOP
           </NavLink>
         </li>
         <li>
-          <NavLink to="/blog" className={({isActive}) => (isActive ? "active" : 'none')}>
+          <NavLink
+            to="/blog"
+            className={({ isActive }) => (isActive ? "active" : "none")}
+          >
             BLOG
           </NavLink>
         </li>
         <li>
-          <NavLink to="/media" className={({isActive}) => (isActive ? "active" : 'none')}>
+          <NavLink
+            to="/media"
+            className={({ isActive }) => (isActive ? "active" : "none")}
+          >
             MEDIA
           </NavLink>
         </li>
         <li>
-          <NavLink to="/features" className={({isActive}) => (isActive ? "active" : 'none')}>
+          <NavLink
+            to="/features"
+            className={({ isActive }) => (isActive ? "active" : "none")}
+          >
             FEATURES
           </NavLink>
         </li>
         <li>
-          <button className="signupbtn">SIGN UP</button>
+          <NavLink to="/login">
+          <button className="signupbtn">
+            SIGN UP
+          </button>
+          </NavLink>
         </li>
         <li>
           <IoSearchSharp size={25} />

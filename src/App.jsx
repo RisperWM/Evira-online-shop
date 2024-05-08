@@ -9,6 +9,7 @@ import Features from "./pages/Features";
 import Account from "./pages/Account";
 import Like from "./pages/Like";
 import Cart from "./pages/Cart";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/account" element={<Account />} />
         <Route path="/like" element={<Like />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
