@@ -48,5 +48,5 @@ If you'd like to contribute to Evira shop, here are some guidelines:
 
 ## **Authors and Acknowledgment**
 
-Project Title was created by **[Your Name](https://github.com/RisperWM)**.
+Project Title was created by **[Risper Wanja](https://github.com/RisperWM)**.
 
