@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="sect1">
         <div className="column1">
           <div className="logos">
-            <p>Nara's Shop</p>
+            <p>Evira's Shop</p>
           </div>
           <div className="about">
             <p className="aboutTitle">About Us</p>

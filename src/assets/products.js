@@ -192,7 +192,7 @@ const products = [
   {
     id: 22,
     name: "Game Controller",
-    prodGroup: "Game-Controller",
+    prodGroup: "Game-controller",
     imageUrl: "src/assets/products/Controlecom.jpeg",
     description: "Description of product 2.",
     status: "best-seller",
@@ -210,7 +210,7 @@ const products = [
   {
     id: 24,
     name: "Xbox Game Controller",
-    prodGroup: "Game-Controller",
+    prodGroup: "Game-controller",
     imageUrl: "src/assets/products/Controlesem.jpeg",
     description: "Description of product 2.",
     status: "best-seller",
@@ -256,7 +256,7 @@ const products = [
   {
     id: 29,
     name: "Dreamcontroller Custom Xbox Elite Controller",
-    prodGroup: "Game-Controller",
+    prodGroup: "Game-controller",
     imageUrl: "src/assets/products/DreamcontrollerCustom.jpeg",
     description: "Description of product 2.",
     status: "best-seller",
@@ -293,7 +293,7 @@ const products = [
   {
     id: 33,
     name: "GameSir G3w Wired PC Controller",
-    prodGroup: "Game-Controller",
+    prodGroup: "Game-controller",
     imageUrl: "src/assets/products/GameSirG3w.jpeg",
     description: "Description of product 2.",
     status: "best-seller",
@@ -413,7 +413,7 @@ const products = [
   {
     id: 46,
     name: "S4 manette officielle",
-    prodGroup: "Game-Controller",
+    prodGroup: "Game-controller",
     imageUrl: "src/assets/products/PS4manette.jpeg",
     description: "Description of product 2.",
     status: "featured",
@@ -422,7 +422,7 @@ const products = [
   {
     id: 47,
     name: "PC and PS3 controller",
-    prodGroup: "Game-Controller",
+    prodGroup: "Game-controller",
     imageUrl: "src/assets/products/PCandPS3.jpeg",
     description: "Description of product 2.",
     status: "featured",
@@ -529,7 +529,7 @@ const products = [
   {
     id: 59,
     name: "Techlicious 2015",
-    prodGroup: "Headphoness",
+    prodGroup: "Headphones",
     imageUrl: "src/assets/products/Techlicious2015.jpeg",
     description: "Description of product 2.",
     status: "featured",
