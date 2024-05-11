@@ -71,7 +71,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink to="/cart">
-            <ImCart size={25} color="orange" />
+            <ImCart size={25} color="black" />
           </NavLink>
         </li>
       </ul>
